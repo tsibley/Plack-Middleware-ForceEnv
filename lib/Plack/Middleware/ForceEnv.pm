@@ -4,7 +4,7 @@ use warnings;
 package Plack::Middleware::ForceEnv;
 use parent 'Plack::Middleware';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub call {
     my ($self, $env) = @_;
